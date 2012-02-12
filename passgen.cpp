@@ -29,6 +29,9 @@ void WritePasswordsToStream(std::ostream& out, std::vector<std::string> &passwor
 int main(int argc, char *argv[]) {
     using namespace std;
 
+    // seed random number generator
+    srand(time(NULL));
+
     // check arguments
     if(argc < 2 || argc > 3) {
         cout << "passgen <num passwords> <password length>\n";
@@ -60,9 +63,6 @@ std::vector<std::string> GeneratePasswords(int numberOfPasswords, int passwordLe
 
     vector<string> passwords;
     string str;
-
-    // seed random number generator
-    srand(time(NULL));
 
     // for the number of passwords to generate, create one string of the 
     // specified length. store the generated password in the vector.
