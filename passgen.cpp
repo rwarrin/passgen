@@ -69,7 +69,7 @@ std::vector<std::string> GeneratePasswords(int numberOfPasswords, int passwordLe
     for(int count = 0; count < numberOfPasswords; count++) {
         str = "";
         for(int length = 0; length < passwordLength; length++) {
-            str += (rand() % 93) + 33;  // normal alpha and special characters
+            str += (rand() % 94) + 33;  // normal alpha and special characters
         }
         passwords.push_back(str);
     }
