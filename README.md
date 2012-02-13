@@ -7,7 +7,7 @@ Generates x number of random passwords of optional y length.
     passgen <password count> <password length>
 
 ## Compile
-g++ -o passgen passgen.cpp
+    g++ -o passgen passgen.cpp
 
 ## Example
     passgen 5
