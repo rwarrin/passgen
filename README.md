@@ -17,7 +17,7 @@ Generates x number of random passwords of optional y length.
     (mO:jB3E
     h)PU`N{R
 
-    passgen 1 20
+    passgen 5 20
     }gw7&j7>'jLpI%i[M%;T
     ;$f#$48Q\Y'|B|W6T{Bo
     !MW{eSAVclJ+z4=7l|W|
